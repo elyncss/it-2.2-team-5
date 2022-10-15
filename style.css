@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/* list container */
+.container {
+  width: 80%;
+  margin-inline: auto;
+}
+
+.li-heder {
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.list-container {
+  display: flex;
+  gap: 110px;
+  margin-top: 130px;
+}
+
+.list-container ul li {
+  list-style: none;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.list-container ul li:first-child {
+  font-weight: bold;
+  font-size: 25px;
+  color: #1e4681;
+  margin-bottom: 15px;
+}
+
+.second-list li {
+  font-size: 24px;
+}
+
+.container-2 {
+  margin-top: 180px;
+}
+
+.container-2 .li-heder {
+  margin-bottom: 66px;
+}
+
+.second-list {
+  width: 660px;
+  margin-left: 25px;
+}
+
+.card {
+  width: 399px;
+  height: 328px;
+  box-shadow: black;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+}
+
+h5 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 20px auto 20px;
+}
+
+.card ul li {
+  list-style: none;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.card ul {
+  margin: 32px 20px auto 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  row-gap: 40px;
+  column-gap: 37px;
+  justify-items: center;
+}
+
+.li-heder-2 {
+  margin: 145px auto 95px auto;
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.container-3 {
+  width: 90%;
+  margin-inline: auto;
+}
+
+#margin-top {
+  margin-top: 0;
+}
