@@ -6,11 +6,13 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-/* list container */
+
 .container {
   width: 80%;
   margin-inline: auto;
 }
+
+/* first container */
 
 .li-heder {
   font-weight: bold;
@@ -36,6 +38,56 @@
   margin-bottom: 15px;
 }
 
+/* first container responsiv */
+
+@media screen and (max-width: 834px) {
+  .li-heder {
+    font-size: 32px;
+  }
+
+  .list-container ul li:first-child {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .list-container ul li {
+    font-size: 11px;
+  }
+
+  .list-container {
+    margin-top: 75px;
+  }
+
+
+}
+
+/* first container mobile */
+
+@media screen and (max-width: 375px) {
+
+  .li-heder {
+    font-size: 26px;
+  }
+
+  .list-container ul li:first-child {
+    font-size: 12px;
+  }
+
+  .list-container ul li {
+    font-size: 10px;
+  }
+
+  .list-container {
+    flex-direction: column;
+    gap: 34px;
+    margin-top: 37px;
+  }
+  
+}
+
+/* first container end */
+/* second container  */
+
 .second-list li {
   font-size: 24px;
 }
@@ -52,6 +104,48 @@
   width: 660px;
   margin-left: 25px;
 }
+
+/* second container responsiv */
+
+@media screen and (max-width: 834px) {
+  .second-list li {
+    font-size: 14px;
+  }
+
+  .container-2 {
+    margin-top: 100px;
+  }
+
+  .container-2 .li-heder {
+    margin-bottom: 35px;
+  }
+
+  .second-list {
+    width: 380px;
+    margin-left: 15px;
+  }
+}
+
+
+/* second container mobile */
+
+
+@media screen and (max-width: 375px) {
+  .second-list li {
+    font-size: 12px;
+  }
+
+  .container-2 {
+    margin-top: 73px;
+  }
+
+  .container-2 .li-heder {
+    margin-bottom: 30px;
+  }
+  
+}
+
+/* second container end  */
 
 .card {
   width: 399px;
@@ -96,9 +190,74 @@ h5 {
 
 .container-3 {
   width: 90%;
-  margin-inline: auto;
+  margin: 0 auto;
 }
 
 #margin-top {
   margin-top: 0;
+}
+
+@media screen and (max-width: 834px) {
+  .card {
+    width: 230px;
+    height: 190px;
+    border-radius: 17px;
+  }
+
+  .card ul li {
+    font-size: 14px;
+  }
+
+  .card-img {
+    border-radius: 17px 17px 0 0;
+    width: 230px;
+  }
+
+  h5 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 10px auto 0 12px;
+  }
+
+  .card ul {
+    margin: 15px auto 0 12px;
+  }
+
+  .li-heder-2 {
+    margin: 145px auto 80px auto;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+
+/* container-3 mobile */
+
+@media screen and (max-width: 375px) {
+
+  .card {
+    width: 185px;
+    height: 150px;
+    border-radius: 12px;
+  }
+
+  .card-img {
+    border-radius: 12px 12px 0 0;
+    width: 185px;
+  }
+
+  h5 {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 5px auto 0 10px;
+  }
+
+  .card ul {
+    margin: 15px auto 0 8px;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
